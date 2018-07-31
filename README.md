@@ -24,6 +24,7 @@ fc-cache -fv
 git clone https://github.com/madgrid/bitmap-fonts.git
 cd bitmap-fonts
 doas cp -r bitmap/ /usr/local/share/fonts
+xset fp+ /usr/local/share/fonts/bitmap
 fc-cache -fv
 ```
 
