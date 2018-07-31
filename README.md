@@ -11,11 +11,19 @@ Please submit a pull request if there are any bdf/pcf fonts that you want added.
 
 
 ## Installation:
+#### Linux
 ```
-git clone https://github.com/Tecate/bitmap-fonts.git
+git clone https://github.com/madgrid/bitmap-fonts.git
 cd bitmap-fonts
 sudo cp -avr bitmap/ /usr/share/fonts
 xset fp+ /usr/share/fonts/bitmap
+fc-cache -fv
+```
+#### OpenBSD
+```
+git clone https://github.com/madgrid/bitmap-fonts.git
+cd bitmap-fonts
+doas cp -r bitmap/ /usr/local/share/fonts
 fc-cache -fv
 ```
 
@@ -34,6 +42,7 @@ sudo dpkg-reconfigure fontconfig
 [bitocra by ninjaaron](https://github.com/ninjaaron/bitocra)\
 [boxxy by caffeinebasedlifeform](https://aur.archlinux.org/packages/bdf-boxxy-font/)\
 [cherry by MarinHoc](https://github.com/MarinHoc/cherry)\
+[curie by NerdyPepper](https://github.com/NerdyPepper/curie)
 [CG Mono by Christian Gruen](http://www.proggyfonts.net/download/)\
 [creep by romeovs](https://github.com/romeovs/creep)\
 [ctrld-font by bjin](https://github.com/bjin/ctrld-font)\
@@ -89,165 +98,167 @@ sudo dpkg-reconfigure fontconfig
 ## Screenshots
 
 **bitbuntu**\
-	![bitbuntu](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/bitbuntu-10.png)
+	![bitbuntu](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/bitbuntu-10.png)
 
 **bitbuntufull**\
-	![bitbuntufull](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/bitbuntufull-10.png)
+	![bitbuntufull](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/bitbuntufull-10.png)
 
 **bitocra**\
-	![bitocra](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/bitcora-11.png)
+	![bitocra](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/bitcora-11.png)
 
 **bitocra**\
-	![bitocra](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/bitcora-13.png)
+	![bitocra](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/bitcora-13.png)
 
 **boxxy**\
-	![boxxy](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/boxxy-14.png)
+	![boxxy](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/boxxy-14.png)
 
 **cherry**\
-	![cherry](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/cherry-10.png)\
-	![cherry](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/cherry-11.png)\
-	![cherry](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/cherry-13.png)
-
+	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-10.png)\
+	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-11.png)\
+	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-13.png**
+**curie**\
+    ![curie](https://user-images.githubusercontent.com/23706925/39848353-7c4ef32a-53d4-11e8-8d7e-04f6a950c856.png)
+    
 **creep**\
-	![creep](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/creep-16.png)
+	![creep](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/creep-16.png)
 
 **ctrld**\
-	![ctrld](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/ctrld-13.png)
+	![ctrld](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/ctrld-13.png)
 
 **dina**\
-	![dina](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/dina-12.png)
+	![dina](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/dina-12.png)
 
 **dweep**\
-	![dweep](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/dweep.jpg)
+	![dweep](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/dweep.jpg)
 
 **dylex**\
-	![dylex](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/dylex-10.png)
+	![dylex](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/dylex-10.png)
 
 **envypn**\
-	![envypn](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/envypn-13.png)\
-  ![envypn](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/envypn-powerline-13.png)\
-  ![envypn](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/envypn-powerline-15.png)
+	![envypn](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/envypn-13.png)\
+  ![envypn](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/envypn-powerline-13.png)\
+  ![envypn](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/envypn-powerline-15.png)
 
 **erusfont**\
-	![erusfont](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/erusfont-11.png)
+	![erusfont](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/erusfont-11.png)
 
 **gohu**\
-	![gohu](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/gohu-14.png)
+	![gohu](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/gohu-14.png)
 
 **gomme**\
-	![gomme](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/gomme-20.png)
+	![gomme](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/gomme-20.png)
 
 **haxor**\
-	![haxor](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/haxor-12.png)
+	![haxor](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/haxor-12.png)
 
 **haxor-narrow**\
-	![haxor-narrow](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/haxor-narrow-15.png)
+	![haxor-narrow](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/haxor-narrow-15.png)
 
 **kakwa**\
-	![kakwa](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/kakwa-12.png)
+	![kakwa](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/kakwa-12.png)
 
 **knxt**\
-	![knxt](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/knxt-20.png)
+	![knxt](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/knxt-20.png)
 
 **leggie**\
-	![leggie](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/leggie-12.png)
+	![leggie](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/leggie-12.png)
 
 **lemon**\
-	![lemon](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/lemon-10.png)
+	![lemon](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/lemon-10.png)
 
 **lode**\
-	![lode](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/lode-15.png)
+	![lode](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/lode-15.png)
 
 **montecarlo**\
-	![montecarlo](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/montecarlo-11.png)
+	![montecarlo](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/montecarlo-11.png)
 
 **opti**\
-	![opti](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/opti-11.png)
+	![opti](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/opti-11.png)
 
 **orp**\
-	![orp](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/orp-12.png)
+	![orp](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/orp-12.png)
 
 **peep**\
-	![peep](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/peep-14.png)
+	![peep](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/peep-14.png)
 
 **profont**\
-	![profont](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/profont-12.png)
+	![profont](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/profont-12.png)
 
 **profont-semi**\
-	![profont-semi](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/profont-semi-12.png)
+	![profont-semi](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/profont-semi-12.png)
 
 **proggy-cleansz**\
-	![proggy-cleansz](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/proggy-cleansz-13.png)
+	![proggy-cleansz](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/proggy-cleansz-13.png)
 
 **proggy-small**\
-	![proggy-small](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/proggy-small-10.png)
+	![proggy-small](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/proggy-small-10.png)
 
 **proggy-square**\
-	![proggy-square](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/proggy-square-11.png)
+	![proggy-square](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/proggy-square-11.png)
 
 **proggy-squarez**\
-	![proggy-squarez](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/proggy-squarez-11.png)
+	![proggy-squarez](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/proggy-squarez-11.png)
 
 **proggy-tinysz**\
-	![proggy-tinysz](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/proggy-tinysz-10.png)
+	![proggy-tinysz](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/proggy-tinysz-10.png)
 
 **progsole**\
-	![progsole](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/progsole-10.png)
+	![progsole](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/progsole-10.png)
 
 **raize**\
-	![raize](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/raize-13.png)
+	![raize](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/raize-13.png)
 
 **scientifica**\
-	![scientifica](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/scientifica.png)
+	![scientifica](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/scientifica.png)
 
 **sgi-haeberli**\
-	![sgi-haeberli](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/sgi-haeberli-12.png)
+	![sgi-haeberli](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/sgi-haeberli-12.png)
 
 **sgi-haebfix**\
-	![sgi-haebfix](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/sgi-haebfix-15.png)
+	![sgi-haebfix](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/sgi-haebfix-15.png)
 
 **sgi-rock**\
-	![sgi-rock](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/sgi-rock-12.png)
+	![sgi-rock](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/sgi-rock-12.png)
 
 **sgi-screen**\
-	![sgi-screen](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/sgi-screen-12.png)
+	![sgi-screen](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/sgi-screen-12.png)
 
 **speedy**\
-	![speedy](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/speedy-12.png)
+	![speedy](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/speedy-12.png)
 
 **tamsyn**\
-	![tamsyn](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tamsyn-13.png)
+	![tamsyn](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tamsyn-13.png)
 
 **tamsynmod**\
-	![tamsynmod](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tamsynmod-12.png)
+	![tamsynmod](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tamsynmod-12.png)
 
 **tamzen**\
-	![tamzen](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tamzen-powerline-8x15.png)\
-	![tamzen](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tamzen-powerline-8x15-bold.png)
+	![tamzen](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tamzen-powerline-8x15.png)\
+	![tamzen](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tamzen-powerline-8x15-bold.png)
 
 **terminus**\
-	![terminus](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/terminus-12.png)
+	![terminus](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/terminus-12.png)
 
 **terminusmod**\
-	![terminusmod](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/terminusmod-12.png)
+	![terminusmod](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/terminusmod-12.png)
 
 **termsyn**\
-	![termsyn](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/termsyn-12.png)
+	![termsyn](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/termsyn-12.png)
 
 **tewi**\
-	![tewi](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tewi-11.png)
+	![tewi](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tewi-11.png)
 
 **tobi**\
-	![tobi](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/tobi-12.png)
+	![tobi](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/tobi-12.png)
 
 **uushi**\
-	![uushi](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/uushi-11.png)
+	![uushi](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/uushi-11.png)
 
 **unscii**\
-	![unscii 16](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-16.png)\
-	![unscii 8](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8.png)\
-	![unscii 8 tall](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8-tall.png)\
-	![unscii 8 thin](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8-thin.png)\
-	![unscii 8 alt](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8-alt.png)\
-	![unscii 8 mcr](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8-mcr.png)\
-	![unscii 8 fantasy](https://github.com/Tecate/bitmap-fonts/raw/master/screenshots/unscii-8-fantasy.png)
+	![unscii 16](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-16.png)\
+	![unscii 8](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8.png)\
+	![unscii 8 tall](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8-tall.png)\
+	![unscii 8 thin](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8-thin.png)\
+	![unscii 8 alt](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8-alt.png)\
+	![unscii 8 mcr](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8-mcr.png)\
+	![unscii 8 fantasy](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/unscii-8-fantasy.png)
