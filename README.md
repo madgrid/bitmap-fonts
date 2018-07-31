@@ -42,7 +42,7 @@ sudo dpkg-reconfigure fontconfig
 [bitocra by ninjaaron](https://github.com/ninjaaron/bitocra)\
 [boxxy by caffeinebasedlifeform](https://aur.archlinux.org/packages/bdf-boxxy-font/)\
 [cherry by MarinHoc](https://github.com/MarinHoc/cherry)\
-[curie by NerdyPepper](https://github.com/NerdyPepper/curie)
+[curie by NerdyPepper](https://github.com/NerdyPepper/curie)\
 [CG Mono by Christian Gruen](http://www.proggyfonts.net/download/)\
 [creep by romeovs](https://github.com/romeovs/creep)\
 [ctrld-font by bjin](https://github.com/bjin/ctrld-font)\
