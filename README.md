@@ -115,7 +115,8 @@ sudo dpkg-reconfigure fontconfig
 **cherry**\
 	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-10.png)\
 	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-11.png)\
-	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-13.png**
+	![cherry](https://github.com/madgrid/bitmap-fonts/raw/master/screenshots/cherry-13.png)
+    
 **curie**\
     ![curie](https://user-images.githubusercontent.com/23706925/39848353-7c4ef32a-53d4-11e8-8d7e-04f6a950c856.png)
     
